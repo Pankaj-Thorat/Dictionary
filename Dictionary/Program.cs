@@ -39,7 +39,6 @@ namespace Dictionary
             dict.Remove("Naman");
 
             Console.WriteLine("\nStudents after removing 1 student -");
-
             foreach (KeyValuePair<string, int> kvp in dict)
             {
                 Console.WriteLine("Student: " + kvp.Key + "\tMarks:" + kvp.Value);
